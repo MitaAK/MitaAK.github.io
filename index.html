@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="iNdmUQ0uxoPTxby5P1uQlhTZAmzMu0PX0vpVfKgm">
+
+    <title>PizzaTomo</title>
+
+    <!-- Scripts -->
+    <script src="http://127.0.0.1:8000/js/app.js" defer></script>
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link href="http://127.0.0.1:8000/css/app.css" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="http://127.0.0.1:8000">
+                    PizzaTomo
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Left Side Of Navbar --> <ul class="navbar-nav me-auto">
+                        
+                        
+                    </ul>
+
+                    <!-- Right Side Of Navbar -->
+                    <ul class="navbar-nav ms-auto">
+                        <!-- Authentication Links -->
+                                                    <li class="nav-item dropdown">
+                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    Konsumen 1
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="http://127.0.0.1:8000/logout"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        Logout
+                                    </a>
+
+                                    <form id="logout-form" action="http://127.0.0.1:8000/logout" method="POST" class="d-none">
+                                        <input type="hidden" name="_token" value="iNdmUQ0uxoPTxby5P1uQlhTZAmzMu0PX0vpVfKgm">                                    </form>
+                                </div>
+                            </li>
+                                            </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main class="py-4">
+        <div class="container"> 
+                                </div>
+            <div class="container">
+ <h1>Konsumen</h1>
+ <div class="row">
+ <div class="col-4 pizza-card pizza-primary">
+ <div class="row" style="padding-left:5px;padding-right:20px">
+ <div class="col">
+ Order bulan ini
+ </div>
+ <div class="col">
+ 2
+ </div>
+ </div>
+ </div>
+ <div class="col-4 pizza-card pizza-primary">
+ <div class="row" style="padding-left:5px;padding-right:-20px">
+ <div class="col">
+ Order minggu terakhir
+ </div>
+ <div class="col">
+ 2
+ </div>
+ </div>
+ </div>
+ <div class="col-4 pizza-card pizza-primary">
+ <div class="row" style="padding-left:5px;padding-right:20px">
+ <div class="col">
+ Rating Konsumen
+ </div>
+ <div class="col">
+ 5.00/5.00
+ </div>
+ </div>
+ </div>
+ </div>
+ <div class="row">
+ <div class="col-6 pizza-card pizza-primary">
+ <div class="row" style="padding-left:5px;padding-right:-50px">
+ <div class="col">
+ Pengeluaran Bulan Ini
+ </div>
+ <div class="col">
+ 255000.00
+ </div>
+ </div>
+ </div>
+ <div class="col-6 pizza-card pizza-primary">
+ <div class="row" style="padding-left:5px;padding-right:-50px">
+ <div class="col">
+ Pengeluaran Minggu Ini
+ </div>
+ <div class="col">
+ 255000.00
+ </div>
+ </div>
+ </div>
+ </div>
+ <div class="row">
+ <div class="col-9 pizza-card pizza-primary">
+  Silakan pesan pizza kesukaanmu! Klik di <a href="http://127.0.0.1:8000/konsumen/order">sini</a>.
+  </div>
+ <div class="col-3 pizza-card pizza-primary">
+ Atur alamat kirim di <a href="http://127.0.0.1:8000/konsumen/alamatkirim">sini</a>.
+ </div>
+ </div>
+</div>
+        </main>
+    </div>
+</body>
+</html>
